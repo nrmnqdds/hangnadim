@@ -17,7 +17,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 500) {
         handleBlur(true);
       } else handleBlur(false);
     });
@@ -43,8 +43,8 @@ const Navbar = () => {
             <Image
               src={NADIMLOGO}
               alt="i-Hax Logo"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
               style={{ objectFit: "contain" }}
             />
           </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon className="h-6 w-6 text-white" aria-hidden="true" />
+            <Bars3Icon className="h-6 w-6 text-slate-100" aria-hidden="true" />
           </button>
         </div>
         <div className="hidden lg:flex">
@@ -64,7 +64,7 @@ const Navbar = () => {
             <Link
               key={item.name}
               href={item.href}
-              className="font-bold text-lg text-white mx-4 cursor-pointer hover:text-orange-700"
+              className="font-bold text-lg text-slate-100 tracking-widest mx-4 cursor-pointer hover:text-orange-700"
               onClick={(e) => {
                 e.preventDefault();
                 const element = document.getElementById(item.href.slice(1)); // Assuming item.href is a hash link (#example)
@@ -87,7 +87,7 @@ const Navbar = () => {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-50" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-orange-700 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <button
               type="button"
@@ -95,7 +95,10 @@ const Navbar = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
-              <XMarkIcon className="h-6 w-6 text-white" aria-hidden="true" />
+              <XMarkIcon
+                className="h-6 w-6 text-slate-100"
+                aria-hidden="true"
+              />
             </button>
           </div>
           <div className="mt-6 flow-root">
@@ -105,7 +108,7 @@ const Navbar = () => {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-100 hover:bg-gray-50"
                     onClick={(e) => {
                       e.preventDefault();
                       const element = document.getElementById(
