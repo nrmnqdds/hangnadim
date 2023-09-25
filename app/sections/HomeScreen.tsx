@@ -13,14 +13,10 @@ const HomeScreen = () => {
         origin="bottom"
         className="fixed text-center invisible"
       >
-        <h1
-          className={`text-5xl md:text-8xl text-slate-100 drop-shadow-glow ${warGate.className}`}
-        >
+        <h1 className="text-5xl md:text-8xl text-slate-100 drop-shadow-glow">
           HANG NADIM
         </h1>
-        <p
-          className={`text-2xl md:text-5xl text-gray-500 drop-shadow-xl ${warGate.className}`}
-        >
+        <p className="text-2xl md:text-5xl text-gray-500 drop-shadow-xl">
           TANGKAS BERANI
         </p>
       </RevealList>
