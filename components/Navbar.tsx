@@ -9,7 +9,13 @@ import { Dialog } from "@headlessui/react";
 import { AiOutlineClose as XMarkIcon } from "react-icons/ai";
 import { FaBars as Bars3Icon } from "react-icons/fa";
 
-const navigation = [{ name: "About", href: "#about" }];
+const navigation = [
+  { name: "About", href: "#about" },
+  {
+    name: "Values",
+    href: "#values",
+  },
+];
 
 const Navbar = () => {
   const [blur, handleBlur] = useState<boolean>(false);
@@ -64,7 +70,7 @@ const Navbar = () => {
             <Link
               key={item.name}
               href={item.href}
-              className="font-bold text-lg text-slate-100 tracking-widest mx-4 cursor-pointer hover:text-orange-700"
+              className="font-bold text-lg text-slate-100 tracking-widest mx-4 cursor-pointer hover:text-orange-500"
               onClick={(e) => {
                 e.preventDefault();
                 const element = document.getElementById(item.href.slice(1)); // Assuming item.href is a hash link (#example)
