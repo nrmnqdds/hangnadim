@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 
-const warGate = localFont({ src: "../../public/WarGate-Normal.otf" });
+const warGate = localFont({ src: "../../public/Wargate-Normal.otf" });
 
 const HomeScreen = () => {
   return (
