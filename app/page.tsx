@@ -6,6 +6,7 @@ import { motion, useMotionValue } from "framer-motion";
 import Image from "next/image";
 import MainBg from "@/public/photo_2023-09-25_20-24-22.jpg";
 import LayeredSteps from "@/public/layered-steps-haikei.svg";
+import Values from "./sections/ValuesScreen";
 
 export default function Home() {
   const scrollY = useMotionValue(0);
@@ -36,6 +37,7 @@ export default function Home() {
         <Image src={LayeredSteps} alt="" className="w-screen" />
 
         <About />
+        <Values />
       </motion.div>
     </main>
   );
