@@ -9,8 +9,8 @@ const Creed = () => {
         id="creed"
         className="relative bg-transparent h-fit py-24 flex flex-col items-center justify-center px-5"
       >
-        <h1 className="text-slate-100 drop-shadow-glow text-8xl mb-10">
-          NADIM&apos;s CREED
+        <h1 className="text-slate-100 text-5xl md:text-8xl mb-10 drop-shadow-lg text-center">
+          NADIM&apos;s <span className="text-orange-500">CREED</span>
         </h1>
         <RevealList
           reset={true}
@@ -18,30 +18,28 @@ const Creed = () => {
           delay={100}
           interval={100}
           origin="bottom"
-          className="text-white text-3xl drop-shadow-lg text-center"
+          className="text-white text-xl md:text-3xl drop-shadow-lg text-center invisible"
         >
           <p>
             we are cadet officer of{" "}
-            <span className="text-orange-200 drop-shadow-glow">nadim</span>
+            <span className="text-orange-300 drop-shadow-lg">nadim</span>
           </p>
           <p>
-            will <span className="text-orange-200 drop-shadow-glow">not</span>{" "}
+            will <span className="text-orange-300 drop-shadow-lg">not</span>{" "}
             tell lies, cheat and steal
           </p>
           <p>
             nor{" "}
-            <span className="text-orange-200 drop-shadow-glow">
-              double cross
-            </span>{" "}
+            <span className="text-orange-300 drop-shadow-lg">double cross</span>{" "}
             and
           </p>
           <p>
-            will <span className="text-orange-200 drop-shadow-glow">not</span>{" "}
+            will <span className="text-orange-300 drop-shadow-lg">not</span>{" "}
             tolerate among us
           </p>
           <p>
             the individuals who{" "}
-            <span className="text-orange-200 drop-shadow-glow">disregard</span>{" "}
+            <span className="text-orange-300 drop-shadow-lg">disregard</span>{" "}
             this code
           </p>
         </RevealList>

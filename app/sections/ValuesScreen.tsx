@@ -16,7 +16,7 @@ const Values = () => {
           fill
           className="absolute pointer-events-none opacity-5 object-contain"
         />
-        <h1 className="text-slate-100 drop-shadow-glow text-5xl mb-5">
+        <h1 className="text-slate-100 drop-shadow-lg text-5xl mb-5">
           MILITARY VALUES
         </h1>
         <RevealList
@@ -25,7 +25,7 @@ const Values = () => {
           delay={100}
           interval={100}
           origin="bottom"
-          className="flex flex-row flex-wrap items-baseline justify-center gap-5"
+          className="flex flex-row flex-wrap items-baseline justify-center gap-5 invisible"
         >
           <div className="p-5 bg-orange-800 rounded-lg drop-shadow-lg flex flex-col items-center justify-center w-[30%]">
             <h1 className="text-orange-200 text-xl drop-shadow-lg">DUTY</h1>

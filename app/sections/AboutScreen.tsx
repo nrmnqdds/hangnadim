@@ -88,7 +88,7 @@ const About = () => {
             delay={100}
             interval={100}
             origin="bottom"
-            className="text-left space-y-2 drop-shadow-lg"
+            className="text-left space-y-2 drop-shadow-lg invisible"
           >
             <div>
               <p className="text-orange-100 drop-shadow-lg text-3xl">TANGKAS</p>
