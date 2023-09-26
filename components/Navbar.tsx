@@ -48,7 +48,17 @@ const Navbar = () => {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link href="#" className="-m-2 p-1.5">
+          <Link
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              });
+            }}
+            className="-m-2 p-1.5"
+          >
             <span className="sr-only">Nadim Logo</span>
             <Image
               src={NADIMLOGO}
