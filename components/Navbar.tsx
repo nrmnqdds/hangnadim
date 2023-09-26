@@ -15,6 +15,10 @@ const navigation = [
     name: "Values",
     href: "#values",
   },
+  {
+    name: "Creed",
+    href: "#creed",
+  },
 ];
 
 const Navbar = () => {
