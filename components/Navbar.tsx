@@ -19,6 +19,10 @@ const navigation = [
     name: "Creed",
     href: "#creed",
   },
+  {
+    name: "Song",
+    href: "#song",
+  },
 ];
 
 const Navbar = () => {

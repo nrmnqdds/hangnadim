@@ -10,6 +10,8 @@ import LayeredSteps from "@/public/layered-steps-haikei.svg";
 import Values from "./sections/ValuesScreen";
 import { useState, useEffect } from "react";
 import Creed from "./sections/CreedScreen";
+import Song from "./sections/SongScreen";
+import Footer from "./sections/Footer";
 
 export default function Home() {
   const [blur, handleBlur] = useState<boolean>(false);
@@ -52,6 +54,9 @@ export default function Home() {
         <About />
         <Values />
         <Creed />
+        <Song />
+
+        <Footer />
       </motion.div>
     </main>
   );
