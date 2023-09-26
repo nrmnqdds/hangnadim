@@ -5,10 +5,23 @@ import HomeScreen from "./sections/HomeScreen";
 import { motion, useMotionValue } from "framer-motion";
 import Image from "next/image";
 import MainBg from "@/public/photo_2023-09-25_20-24-22.jpg";
+import MainBg2 from "@/public/photo_2023-09-25_20-27-09.jpg";
 import LayeredSteps from "@/public/layered-steps-haikei.svg";
 import Values from "./sections/ValuesScreen";
+import { useState, useEffect } from "react";
+import Creed from "./sections/CreedScreen";
 
 export default function Home() {
+  const [blur, handleBlur] = useState<boolean>(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 1000) {
+        handleBlur(true);
+      } else handleBlur(false);
+    });
+  }, []);
+
   const scrollY = useMotionValue(0);
   const parallaxOffset = 0.4;
   return (
@@ -16,7 +29,7 @@ export default function Home() {
       <div style={{ zIndex: -100, position: "fixed" }}>
         <div className="w-screen h-screen bg-black"></div>
         <Image
-          src={MainBg}
+          src={blur ? MainBg2 : MainBg}
           alt=""
           fill
           style={{ objectFit: "cover", opacity: 0.2 }}
@@ -38,6 +51,7 @@ export default function Home() {
 
         <About />
         <Values />
+        <Creed />
       </motion.div>
     </main>
   );
