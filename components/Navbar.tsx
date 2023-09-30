@@ -23,6 +23,10 @@ const navigation = [
     name: "Song",
     href: "#song",
   },
+  {
+    name: "Gallery",
+    href: "#gallery",
+  },
 ];
 
 const Navbar = () => {
