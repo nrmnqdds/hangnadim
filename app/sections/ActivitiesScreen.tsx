@@ -70,6 +70,8 @@ const Activities = () => {
                 alt=""
                 fill
                 className="object-cover rounded-lg"
+                placeholder="blur"
+                loading="lazy"
               />
             </div>
           ))}
