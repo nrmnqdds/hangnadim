@@ -1,6 +1,6 @@
 import Image from "next/image";
-import NADIMLOGO from "../../public/nadimlogo.png";
-import LPH from "../../public/layered-peaks-haikei.svg";
+import NADIMLOGO from "@/public/nadimlogo.png";
+import LPH from "@/public/layered-peaks-haikei.svg";
 import { RevealList } from "next-reveal";
 
 const Song = () => {

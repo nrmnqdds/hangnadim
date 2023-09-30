@@ -12,6 +12,7 @@ import { useState, useEffect } from "react";
 import Creed from "./sections/CreedScreen";
 import Song from "./sections/SongScreen";
 import Footer from "./sections/Footer";
+import Gallery from "./sections/GalleryScreen";
 
 export default function Home() {
   const [blur, handleBlur] = useState<boolean>(false);
@@ -55,6 +56,7 @@ export default function Home() {
         <Values />
         <Creed />
         <Song />
+        <Gallery />
 
         <Footer />
       </motion.div>
