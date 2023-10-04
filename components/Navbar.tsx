@@ -31,6 +31,10 @@ const navigation = [
     name: "Activities",
     href: "#activities",
   },
+  {
+    name: "Academic"
+    href: "#academic"
+  }
 ];
 
 const Navbar = () => {
