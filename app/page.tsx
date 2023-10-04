@@ -60,7 +60,6 @@ export default function Home() {
         <Song />
         <Gallery />
         <Activities />
-        <Academic />
 
         <Footer />
       </motion.div>
