@@ -20,10 +20,10 @@ const HomeScreen = () => {
           origin="bottom"
           className="fixed text-center invisible"
         >
-          <h1 className="text-5xl md:text-8xl text-slate-100 drop-shadow-glow">
+          <h1 className="text-5xl md:text-8xl text-slate-100">
             HANG NADIM
           </h1>
-          <p className="text-2xl md:text-5xl text-orange-500 drop-shadow-xl">
+          <p className="text-2xl md:text-5xl text-orange-500>
             TANGKAS BERANI
           </p>
         </RevealList>
