@@ -16,7 +16,7 @@ const HomeScreen = () => {
         <RevealList
           interval={200}
           delay={200}
-          easing="ease-in-out"
+          easing="linear"
           origin="bottom"
           className="fixed text-center invisible"
         >
