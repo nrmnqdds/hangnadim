@@ -10,7 +10,7 @@ import BATCH2016 from "@/public/batch2016.jpg";
 import BATCH2017 from "@/public/batch2017.jpg";
 import BATCH2018 from "@/public/batch2018.jpg";
 import BATCH2020 from "@/public/batch2020.jpg";
-import BATCH2021 from "@/public/batch2021.jpg";
+
 
 const batches = [
   {
