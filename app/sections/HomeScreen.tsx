@@ -16,14 +16,14 @@ const HomeScreen = () => {
         <RevealList
           interval={200}
           delay={200}
-          easing="easing-in-out"
+          easing="ease-in-out"
           origin="bottom"
           className="fixed text-center invisible"
         >
           <h1 className="text-5xl md:text-8xl text-slate-100 drop-shadow-glow">
             HANG NADIM
           </h1>
-          <p className="text-2xl md:text-5xl text-orange-500 drop-shadow-glow-x1">
+          <p className="text-2xl md:text-5xl text-orange-500 drop-shadow-glow">
             TANGKAS BERANI
           </p>
         </RevealList>
