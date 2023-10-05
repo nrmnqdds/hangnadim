@@ -14,6 +14,7 @@ import Song from "./sections/SongScreen";
 import Footer from "./sections/Footer";
 import Gallery from "./sections/GalleryScreen";
 import Activities from "./sections/ActivitiesScreen";
+// import Academic from "./sections/AcademicScreen";
 
 export default function Home() {
   const [blur, handleBlur] = useState<boolean>(false);

@@ -31,6 +31,7 @@ const navigation = [
     name: "Activities",
     href: "#activities",
   },
+
 ];
 
 const Navbar = () => {

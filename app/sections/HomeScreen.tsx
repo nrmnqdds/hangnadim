@@ -23,7 +23,7 @@ const HomeScreen = () => {
           <h1 className="text-5xl md:text-8xl text-slate-100 drop-shadow-glow">
             HANG NADIM
           </h1>
-          <p className="text-2xl md:text-5xl text-orange-500 drop-shadow-xl">
+          <p className="text-2xl md:text-5xl text-orange-500 drop-shadow-glow">
             TANGKAS BERANI
           </p>
         </RevealList>
