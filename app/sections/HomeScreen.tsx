@@ -18,6 +18,7 @@ const HomeScreen = () => {
           delay={200}
           easing="ease-in-out"
           origin="bottom"
+          reset={true}
           className="fixed text-center invisible"
         >
           <h1 className="text-5xl md:text-8xl text-slate-100 drop-shadow-glow">
