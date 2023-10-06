@@ -15,13 +15,7 @@ const HomeScreen = () => {
   return (
     <section className="isolate w-full h-screen flex items-center justify-center">
       {blur ? null : (
-        <RevealList
-          interval={200}
-          delay={200}
-          easing="ease-in-out"
-          origin="bottom"
-          className="fixed text-center invisible"
-        >
+        <div className="fixed text-center">
           <h1 className="text-5xl md:text-8xl text-slate-100 drop-shadow-glow">
             <span ref={glitch.ref}>HANG NADIM</span>
           </h1>
@@ -31,7 +25,7 @@ const HomeScreen = () => {
           >
             <span ref={glitch.ref}>TANGKAS BERANI</span>
           </p>
-        </RevealList>
+        </div>
       )}
     </section>
   );
