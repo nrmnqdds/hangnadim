@@ -31,7 +31,7 @@ const Academic = () => {
   return (
     <>
       <section
-        id="activities"
+        id="academic"
         className="w-full h-fit py-14 flex flex-col items-center justify-center bg-orange-700 px-5"
       >
         <h1 className="text-5xl text-slate-100 drop-shadow-lg mb-10">
