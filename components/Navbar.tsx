@@ -34,6 +34,7 @@ const navigation = [
   {
     name: "Academic",
     href: "#academic"
+  }
 ];
 
 const Navbar = () => {
